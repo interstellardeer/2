@@ -1,0 +1,316 @@
+<style>
+    body {
+        width: 70%;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
+
+    }
+
+    form {
+        min-width: 400px;
+        max-width: 500px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Recruitment HIMARPL 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Open Recruitment HIMARPL 2025</h1>
+
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <div style="max-width: 50%; margin-right: 3%;">
+            <h2>Daftar</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nemo sed magnam repellat reprehenderit,
+                dolores
+                expedita id! Eaque cum consectetur accusantium quibusdam, hic perspiciatis? Quod error deleniti minus
+                impedit
+                quidem!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit asperiores quisquam quos amet expedita
+                sed
+                voluptate numquam nobis iusto, dicta doloribus soluta laborum qui, eos cupiditate possimus dolore
+                adipisci
+                eaque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta adipisci quos, laudantium
+                obcaecati
+                tempora ut corrupti atque sequi quo est, quas aspernatur officia vitae. Excepturi dolorem architecto
+                iste
+                autem!
+            </p>
+
+        </div>
+
+
+        <form action="submit_form.php" method="post">
+            <table border="0">
+                <tr>
+                    <td><label for="name">Nama:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Telefon:</label></td>
+                    <td><input type="tel" id="phone" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender" required>
+                            <option value="">Pilih Gender</option>
+                            <option value="male">Lelaki</option>
+                            <option value="female">Perempuan</option>
+                            <option value="other">Lainnya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat:</label></td>
+                    <td><textarea name="alamat" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="jurusan">Jurusan:</label></td>
+                    <td>
+                        <select name="jurusan">
+                            <option value="">Jurusan</option>
+                            <option value="rpl">RPL</option>
+                            <option value="pmm">PMM</option>
+                            <option value="tekkom">TEKKOM</option>
+                            <option value="pgsd">PGSD</option>
+                            <option value="pgpaud">PGPAUD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Daftar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </div>
+
+    <h2>Rumus</h2>
+    <p>Ryan: <i>πr<sup>2</sup></i></p>
+    <p>Ahsan: <i>K*Q<sub>1</sub>*Q<sub>2</sub>/r<sup>2</sup></p><i>
+
+        <h2>Latihan Table</h2>
+        <table>
+            <tr>
+                <td>No.</td>
+                <td>Nama</td>
+                <td>Email</td>
+                <td>Telefon</td>
+                <td>Gender</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ahsan</td>
+                <td>ahsan@mail</td>
+                <td>Waria</td>
+            </tr>
+        </table>
+
+        <h2>Warna Table</h2>
+
+        <table style="text-align: center; width: 500px; height: 600px;" border="0" align="center">
+            <tr>
+                <td style="background-color: yellow;" colspan="2" rowspan="4"> A </td>
+                <td style="background-color: red;" colspan="2" rowspan="2"> B </td>
+                <td style="background-color: lightblue;"> C </td>
+            </tr>
+            <tr>
+                <td style="background-color: purple;" colspan="1" rowspan="2"> D </td>
+
+            </tr>
+            <tr>
+                <td style="background-color: lightyellow;" rowspan="2"> E </td>
+                <td style="background-color: green;" rowspan="2"> F </td>
+
+            </tr>
+            <tr>
+                <td style="background-color: lightblue;"> G </td>
+
+            </tr>
+            <tr>
+                <td style="background-color: lightsalmon;" colspan="5"> H </td>
+
+            </tr>
+            <tr>
+                <td style="background-color: blue;" colspan="4" rowspan="2"> I </td>
+                <td style="background-color: red;" rowspan="3"> L </td>
+
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td style="background-color: orange;" colspan="3"> J </td>
+                <td style="background-color: purple;"> K </td>
+
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <h2>Table</h2>
+
+
+        <table style="text-align: center;" width="100%" cellspacing="0" cellpadding="20">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" bgcolor="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" colspan="3" bgcolor="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="black"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="black"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td bgcolor="#e0b080"></td>
+                <td bgcolor="black"></td>
+                <td bgcolor="#e0b080"></td>
+                <td rowspan="2" bgcolor="black"></td>
+                <td bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td bgcolor="#e0b080"></td>
+                <td colspan="3" bgcolor="black"></td>
+                <td bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td bgcolor="#e0b080"></td>
+                <td bgcolor="black"></td>
+                <td bgcolor="#e0b080"></td>
+                <td bgcolor="black"></td>
+                <td bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td bgcolor="#e0b080"></td>
+                <td bgcolor="black" colspan="3"></td>
+                <td bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5" bgcolor="#e0b080"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- <button type="submit">Kirim</button> -->
+
+
+</body>
+
+</html>
