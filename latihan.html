@@ -8,8 +8,8 @@
     }
 
     form {
-        min-width: 400px;
-        max-width: 500px;
+        /* min-width: 400px;
+        max-width: 500px; */
         padding: 20px;
         border: 1px solid #ccc;
         border-radius: 5px;
@@ -68,7 +68,7 @@
 
 
         <form action="submit_form.php" method="post">
-            <table border="0">
+            <table border="0" cellspacing="0">
                 <tr>
                     <td><label for="name">Nama:</label></td>
                     <td><input type="text" id="name" name="name" required></td>
@@ -112,6 +112,20 @@
                             <option value="pgpaud">PGPAUD</option>
                         </select>
                     </td>
+                </tr>
+                <tr>
+                    <td><label for="rating">Penilaian:</label></td>
+                    <td>
+                        <input type="range" id="rating" name="rating" min="1" max="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="color">Warna:</label></td>
+                    <td><input type="color" id="color" name="color"> warna</td>
+                </tr>
+                <tr>
+                    <td><label for="custom-date">Tanggal:</label></td>
+                    <td><input type="text" id="custom-date" name="custom_date" placeholder="dd/mm/yy" pattern="\d{2}/\d{2}/\d{4}" required></td>
                 </tr>
                 <tr>
                     <td colspan="2" align="center">
